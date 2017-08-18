@@ -77,6 +77,33 @@ header .flex {
 	margin-right: -2rem;
 	border-radius: 0.5rem;
 }
+
+/*Supporting Section*/
+
+.supporting {
+	display: flex;
+	justify-content: center;
+}
+
+.service {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	margin: 3rem;
+	height: 8rem;
+	width: 5rem;
+
+}
+
+.service img.paper-icon {
+	width: 3.5rem;
+}
+
+.service img {
+	width: 5rem;
+}
 /*Media Queries*/
 
 @media only screen and (max-width: 1024px) {
