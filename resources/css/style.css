@@ -185,3 +185,73 @@ header {
 	display: none;
 }
 }
+
+@media only screen and (max-width: 470px) {
+nav.container {
+	max-width: 100%;
+}
+
+span {
+	display: none;
+}
+
+header {
+	padding-top: 0;
+	height: 17rem;
+	background-position: 20%;
+}
+
+.main-banner {
+	display: inline-block;
+	background-color: white;
+	padding: 1rem 0;
+	font-family: Helvetica;
+	font-size: 1rem;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.2;
+	margin: 9rem auto 0 auto;
+	width: 100%;
+}
+
+.supporting {
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 3.77rem;
+}
+
+.service {
+	height: auto;
+	margin: 0.77rem;
+	font-size: 0.77rem;
+}
+
+.service img {
+	margin: 0.77rem;
+}
+
+.info {
+	width: 100%;
+	margin-bottom: 4rem;
+	font-size: 0.77rem;
+	text-align: center;
+	justify-content: center;
+	margin-left: 1rem;
+}
+
+.title {
+	width: 10rem;
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+footer div {
+	display: none;
+}
+
+footer {
+	justify-content: center;
+}
+}
+}
