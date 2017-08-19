@@ -145,21 +145,43 @@ footer {
 /*Media Queries*/
 
 @media only screen and (max-width: 1024px) {
-.menu {
-	display: inline;
+.menu ul {
+	display: none;
 }
 
-.short-menu {
-	display: none;
+.menu ul.short-menu {
+	display: block;
+}
+
+nav.container {
+	max-width: 100%;
+}
+
+header {
+	padding-top: 0;
+	height: 22rem;
+}
+
+.main-banner {
+	display: inline-block;
+	background-color: white;
+	padding: 0.75rem 4rem;
+	font-family: Helvetica;
+	font-size: 1.33rem;
+	font-weight: bold;
+	line-height: 1.2;
+	margin-top: 5rem;
+	margin-right: 2rem;
+	border-radius: 0.2rem;
 }
 }
 
 @media only screen and (min-width: 1024px) {
-.menu {
+.menu ul {
 	display: inline;
 }
 
-.short-menu {
+.menu ul.short-menu {
 	display: none;
 }
 }
